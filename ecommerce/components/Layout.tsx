@@ -13,7 +13,7 @@ export default function Layout({title, children}) {
       </Head>
         <div className="flex min-h-screen flex-col justify-between">
          <header>
-          <nav className="flex h-12 items-center px4 justify-between shadow-md">
+          <nav className="flex h-12 items-center px-4 justify-between shadow-md">
             <Link href = "/" legacyBehavior>
               <a className="text-lg font-bold">Island Foods</a>
             </Link>
