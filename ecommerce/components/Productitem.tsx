@@ -14,8 +14,18 @@ export default function Productitem({product}:any) {
              />
             </a>
         </Link>
-       <div className="flex flex-col item-center justify-center"></div> 
-       
+       <div className="flex flex-col item-center justify-center p-5"></div> 
+       <Link href={`/product/${product.slug}`} legacyBehavior>
+        <a>
+       <h2 className="text-lg">{product.name}</h2>
+       </a>
+       </Link>
+            
+       <p className="mb-2">{product.countryOfOrigin}</p>
+       <p>${product.price}</p>
+       <button className="primary-button" type="button">
+        Add to Cart
+       </button>
     
     
     </div>
