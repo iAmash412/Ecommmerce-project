@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-export default function Productitem({product}:any) {
+export default function ProductItem({product}:any) {
   return (
     <div className="card">
         <Link href={`/product/${product.slug}`} legacyBehavior>

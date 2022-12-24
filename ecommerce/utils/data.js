@@ -32,6 +32,6 @@ const data ={
             description: 'A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It is believed to have originated in the region between northwestern Myanmar, Bangladesh, and northeastern India.',
         },
     ],
-}
+};
 
 export default data

@@ -1,0 +1,3 @@
+{
+  "extends": ["elint:recommended", "next/core-web-vitals"]
+}
