@@ -15,7 +15,7 @@ export default function Layout({title, children}){
          <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md">
             <Link href = "/" legacyBehavior>
-              <a className="text-lg font-bold">Island Marts</a>
+              <a className="text-lg font-bold">Island Mart</a>
             </Link>
             <div>
               <Link href = "/cart">Cart</Link>
